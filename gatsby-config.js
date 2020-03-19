@@ -5,5 +5,19 @@
  */
 
 module.exports = {
-  plugins: ["gatsby-plugin-sass"],
+  siteMetadata: {
+    title: "Hello every one",
+    author: "Slawomir Dyk",
+  },
+  plugins: [
+    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "src",
+        path: `${__dirname}/src/`,
+      },
+    },
+    "gatsby-transformer-remark",
+  ],
 }

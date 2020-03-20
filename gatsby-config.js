@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Hello everyone",
+    title: "Crazy MTB World",
     author: "Slawomir Dyk",
   },
   plugins: [
@@ -18,6 +18,21 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    "gatsby-transformer-remark",
+    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          "gatsby-remark-relative-images",
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 750,
+              linkImagesToOrginal: false,
+            },
+          },
+        ],
+      },
+    },
   ],
 }

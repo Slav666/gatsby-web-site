@@ -1,19 +1,23 @@
 import React from "react"
-
 import Layout from "../components/layout"
 
 const ContactPage = () => {
   return (
-    <Layout>
-      <h3>Contact</h3>
-      <p>The best way to reach me is via email: ......</p>
-      <p>
-        Do you need to buy new bike components?
-        <a href="https://www.chainreactioncycles.com/" target="blank">
-          Clik here
-        </a>
-      </p>
-    </Layout>
+    <div>
+      <Layout>
+        <h1>Contact</h1>
+        <p>
+          The best way to contact with me is...
+          <a
+            href="https://www.onet.pl/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            click here
+          </a>
+        </p>
+      </Layout>
+    </div>
   )
 }
 

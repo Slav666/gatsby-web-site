@@ -3,7 +3,7 @@ title: "The best tools to fix your bike"
 date: "2019-10-17"
 ---
 
-![Tools](../images/xtools.jpg)
+
 
 
 Born in the back of a bike shop in Saint Paul,

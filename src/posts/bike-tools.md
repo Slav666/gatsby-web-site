@@ -3,9 +3,6 @@ title: "The best tools to fix your bike"
 date: "2019-10-17"
 ---
 
-
-
-
 Born in the back of a bike shop in Saint Paul,
 Minnesota in 1963, Park Tool has grown to be the
 world’s largest bicycle tool manufacturer. We

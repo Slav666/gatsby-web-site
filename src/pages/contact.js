@@ -7,13 +7,14 @@ const ContactPage = () => {
       <Layout>
         <h1>Contact</h1>
         <p>
-          The best way to contact with me is...
+          The best way to contact me is via
           <a
-            href="https://www.onet.pl/"
+            href="mailto:slawomirdyk@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            click here
+            {" "}
+            emeil
           </a>
         </p>
       </Layout>

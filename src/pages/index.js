@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
+import "../style/home-page.scss"
 
 export const indexPageQuery = graphql`
   query homePage {
@@ -22,15 +23,14 @@ const IndexPage = ({ data }) => {
   return (
     <div>
       <Layout>
-        <p>Hello world!</p>
-        <div>{data.markdownRemark.frontmatter.title}</div>
+        <div className="heading">{data.markdownRemark.frontmatter.title}</div>
         <div>
           {data.markdownRemark.frontmatter.mainpitch.map(item => {
             return (
               <li>
-                <h2>{item.title}</h2>
-                <p>{item.description}</p>
-                <img src={item.img} alt="" />
+                <h2 className="title">{item.title}</h2>
+                <p className="description">{item.description}</p>
+                <img className="image" src={item.img} alt="" />
               </li>
             )
           })}

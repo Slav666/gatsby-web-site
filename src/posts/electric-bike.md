@@ -1,7 +1,7 @@
 ---
 title: "Electric bicycle"
 date: "2020-03-10"
-img: /img/bike-world.jpg
+img: /img/ebike.png
 ---
 
 An electric bicycle also known as an e-bike is a bicycle with an integrated electric motor which can be used for propulsion. Many kinds of e-bikes are available worldwide, from e-bikes that only have a small motor to assist the rider's pedal-power (i.e. pedelecs) to more powerful e-bikes which are closer to moped-style functionality. All retain the ability to be pedalled by the rider and are therefore not electric motorcycles.

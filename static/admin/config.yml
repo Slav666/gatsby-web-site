@@ -27,3 +27,16 @@ collections:
       preview: false
     fields:
       - { label: title1, name: title1, widget: string }
+      - {label: home-page,
+         name: mainpitch,
+         widget: object,
+         fields: 
+          [
+            { label: description, name: description, widget: text }
+            { label: title, name: tilte, widget: text}
+            {label: img, name: img, widget: image}
+
+          ]
+         
+         }
+      

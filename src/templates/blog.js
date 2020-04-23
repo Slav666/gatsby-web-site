@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-
+import "./single-blog.modules.scss"
 import Layout from "../components/layout"
 
 export const query = graphql`
@@ -9,6 +9,7 @@ export const query = graphql`
       frontmatter {
         title
         date
+        img
       }
       html
     }
@@ -18,11 +19,18 @@ export const query = graphql`
 const Blog = props => {
   return (
     <Layout>
-      <h1>{props.data.markdownRemark.frontmatter.title}</h1>
-      <p>{props.data.markdownRemark.frontmatter.date}</p>
-      <div
-        dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
-      ></div>
+      <div className="single-blog">
+        <h1>{props.data.markdownRemark.frontmatter.title}</h1>
+        <p>{props.data.markdownRemark.frontmatter.date}</p>
+        <img
+          className="image"
+          alt=""
+          src={props.data.markdownRemark.frontmatter.img}
+        />
+        <div
+          dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
+        ></div>
+      </div>
     </Layout>
   )
 }

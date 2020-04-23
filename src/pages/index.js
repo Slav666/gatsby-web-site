@@ -8,7 +8,7 @@ export const indexPageQuery = graphql`
   query homePage {
     markdownRemark(frontmatter: { templateKey: { eq: "home-page" } }) {
       frontmatter {
-        title
+        title1
         mainpitch {
           description
           title
@@ -23,7 +23,7 @@ const IndexPage = ({ data }) => {
   return (
     <div>
       <Layout>
-        <div className="heading">{data.markdownRemark.frontmatter.title}</div>
+        <div className="heading">{data.markdownRemark.frontmatter.title1}</div>
         <div>
           {data.markdownRemark.frontmatter.mainpitch.map(item => {
             return (

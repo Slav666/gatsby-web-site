@@ -1,6 +1,6 @@
 ---
 templateKey: home-page
-title: Why you should love cycling?
+title1: Why you should love cycling?
 
 mainpitch:
   - description: |

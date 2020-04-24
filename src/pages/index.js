@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import "../style/home-page.scss"
@@ -27,7 +26,7 @@ const IndexPage = ({ data }) => {
         <div>
           {data.markdownRemark.frontmatter.mainpitch.map(item => {
             return (
-              <li>
+              <li key={item.title}>
                 <h2 className="title">{item.title}</h2>
                 <p className="description">{item.description}</p>
                 <img className="image" src={item.img} alt="" />
@@ -35,9 +34,6 @@ const IndexPage = ({ data }) => {
             )
           })}
         </div>
-        <p>
-          If you need a bike? <Link to="/contact">Contact me</Link>
-        </p>
       </Layout>
     </div>
   )

@@ -26,5 +26,5 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: Template key, name: tamplateKey, widget: text }
+      - { label: Template key, name: tamplateKey, widget: hidden }
       - { label: Title1, name: title1, widget: text }

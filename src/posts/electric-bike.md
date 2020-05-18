@@ -1,4 +1,5 @@
 ---
+templateKey: blog
 title: "Electric bicycle"
 date: "2020-03-10"
 img: /img/ebike.png

@@ -1,4 +1,5 @@
 ---
+templateKey: blog
 title: "The best tools to fix your bike"
 date: "2019-10-17"
 img: /img/xtools.jpg

@@ -1,4 +1,5 @@
 ---
+templateKey: blog
 title: "Selle Italia SLR Flow saddle review"
 date: "2020-03-20"
 img: /img/saddle.jpg

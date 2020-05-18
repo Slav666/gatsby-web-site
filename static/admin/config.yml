@@ -31,6 +31,6 @@ collections:
     fields:
       - { label: Mainpitch, name: mainpitch, widget: object, fields: [
         { label: Description, name: description, widget: text} 
-        { label: Title, name: title, widget: text}
+        { label: Title, name: title, widget: string}
         { label: Img, name: img, widget: image}
     ]}

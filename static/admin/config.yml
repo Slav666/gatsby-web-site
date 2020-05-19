@@ -28,14 +28,14 @@ collections:
     fields:
       - { label: Template key, name: tamplateKey, widget: hidden }
       - { label: Title1, name: title1, widget: text }
-      # - {
-      #     label: Mainpitch,
-      #     name: mainpitch,
-      #     wiget: object,
-      #     fields:
-      #       [
-      #         { label: Description, name: description, widget: text },
-      #         { label: Title, name: title, widget: text },
-      #         { label: Img, name: img, widget: image },
-      #       ],
-      #   }
+      - {
+          label: Mainpitch,
+          name: mainpitch,
+          widget: object,
+          fields:
+            [
+              { label: Description, name: description, widget: text },
+              { label: Title, name: title, widget: text },
+              { label: Img, name: img, widget: image },
+            ],
+        }

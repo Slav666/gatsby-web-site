@@ -3,6 +3,7 @@ templateKey: home-page
 title1: Why you should love mtb cycling?
 
 mainpitch:
+  blurbs:
   - description: |
         I truly believe that mountain biking is one of the best ways to connect with nature and escape the city. It's becoming increasingly difficult to disconnect from  technology and live in the moment - both of which become much easier if you're pedalling through forested singletrack, navigating roots and rocks and focusing on the trail ahead.
     title: |

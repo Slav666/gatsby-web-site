@@ -9,9 +9,11 @@ export const indexPageQuery = graphql`
       frontmatter {
         title1
         mainpitch {
-          description
-          title
-          img
+          blurbs {
+            description
+            title
+            img
+          }
         }
       }
     }

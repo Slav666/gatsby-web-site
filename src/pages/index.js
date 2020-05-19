@@ -26,7 +26,7 @@ const IndexPage = ({ data }) => {
       <Layout>
         <div className="heading">{data.markdownRemark.frontmatter.title1}</div>
         <div>
-          {data.markdownRemark.frontmatter.mainpitch.map(item => {
+          {data.markdownRemark.frontmatter.mainpitch.blurbs.map(item => {
             return (
               <li key={item.title}>
                 <h2 className="title">{item.title}</h2>

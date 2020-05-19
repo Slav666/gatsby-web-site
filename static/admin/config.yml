@@ -29,10 +29,9 @@ collections:
       - { label: Template key, name: tamplateKey, widget: hidden }
       - { label: Title1, name: title1, widget: text }
       - {
-          label: mainpitch,
+          label: Mainpitch,
           name: mainpitch,
           wiget: object,
-
           fields:
             [
               { label: Description, name: description, widget: text },

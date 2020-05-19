@@ -31,11 +31,11 @@ collections:
       - {
           label: Mainpitch,
           name: mainpitch,
-          widget: object,
+          widget: list,
           fields:
             [
-              { label: Description, name: description, widget: text },
-              { label: Title, name: title, widget: text },
+              { label: Description, name: description, widget: string },
+              { label: Title, name: title, widget: string },
               { label: Img, name: img, widget: image },
             ],
         }

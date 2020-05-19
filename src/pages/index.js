@@ -9,11 +9,9 @@ export const indexPageQuery = graphql`
       frontmatter {
         title1
         mainpitch {
-          blurbs {
-            description
-            title
-            img
-          }
+          description
+          title
+          img
         }
       }
     }
@@ -26,7 +24,7 @@ const IndexPage = ({ data }) => {
       <Layout>
         <div className="heading">{data.markdownRemark.frontmatter.title1}</div>
         <div>
-          {data.markdownRemark.frontmatter.mainpitch.blurbs.map(item => {
+          {data.markdownRemark.frontmatter.mainpitch.map(item => {
             return (
               <li key={item.title}>
                 <h2 className="title">{item.title}</h2>

@@ -32,15 +32,11 @@ collections:
           label: mainpitch,
           name: mainpitch,
           wiget: object,
-          {
-            label: Blurbs,
-            name: blurbs,
-            widget: list,
-            fields:
-              [
-                { label: Description, name: description, widget: markdown },
-                { label: Title, name: title, widget: text },
-                { label: Img, name: img, widget: image },
-              ],
-          },
+
+          fields:
+            [
+              { label: Description, name: description, widget: text },
+              { label: Title, name: title, widget: text },
+              { label: Img, name: img, widget: image },
+            ],
         }
